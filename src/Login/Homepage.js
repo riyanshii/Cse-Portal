@@ -33,7 +33,7 @@ const Homepage = (props) => {
         height:"100vh",backgroundColor: "#fafafa"}}>
           <Header handleLogout={props.handleLogout} />
             <Routes>
-                <Route exact path="/" element={<Homedetail />} />
+                <Route exact path="cse-portal/" element={<Homedetail />} />
                 <Route exact path="/subject" element={<Subject />} />
                 <Route exact path="/subject/:sem" element={<Sem />} />
                 <Route exact path="/subject/:sem/:sub" element={<Subdata />} />

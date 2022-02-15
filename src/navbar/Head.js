@@ -38,7 +38,7 @@ export default function Head(props) {
               color="textPrimary"
               variant="button"
               underline="hover"
-              href="/"
+              href="cse-portal/"
             >
               Home
             </Link>
@@ -120,7 +120,7 @@ export default function Head(props) {
               color="textPrimary"
               variant="button"
               underline="hover"
-              href="/"
+              href="cse-portal/"
             >
               Home
             </Link>
